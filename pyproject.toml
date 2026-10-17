@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lab6-intelligent-search"
+version = "0.1.0"
+description = ""
+authors = ["Student"]
+readme = "README.md"
+packages = [{include = "lab6_intelligent_search", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.15"
+networkx = "<3.5"
+matplotlib = "^3.11.2"
+fastapi = "^0.143.3"
+uvicorn = "^0.54.0"
+pydantic = "^2.14.1"
+pgmpy = "^1.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
